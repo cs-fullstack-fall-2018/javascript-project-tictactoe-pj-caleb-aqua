@@ -23,7 +23,31 @@
                 document.getElementById("1").textContent= xInput;
                 turn2 += 2;
                 button1.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -34,7 +58,31 @@
                 document.getElementById("1").textContent= oInput;
                 turn1 += 2;
                 button1.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -53,7 +101,31 @@
                 document.getElementById("2").textContent= xInput;
                 turn2 += 2;
                 button2.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -64,7 +136,31 @@
                 document.getElementById("2").textContent= oInput;
                 turn1 += 2;
                 button2.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -83,7 +179,31 @@
                 document.getElementById("3").textContent= xInput;
                 turn2 += 2;
                 button3.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -94,7 +214,31 @@
                 document.getElementById("3").textContent= oInput;
                 turn1 += 2;
                 button3.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -114,7 +258,31 @@
                 document.getElementById("4").textContent= xInput;
                 turn2 += 2;
                 button4.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -125,7 +293,31 @@
                 document.getElementById("4").textContent= oInput;
                 turn1 += 2;
                 button4.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -144,7 +336,31 @@
                 document.getElementById("5").textContent= xInput;
                 turn2 += 2;
                 button5.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -155,7 +371,31 @@
                 document.getElementById("5").textContent= oInput;
                 turn1 += 2;
                 button5.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -174,7 +414,31 @@
                 document.getElementById("6").textContent= xInput;
                 turn2 += 2;
                 button6.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -185,7 +449,31 @@
                 document.getElementById("6").textContent= oInput;
                 turn1 += 2;
                 button6.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -204,7 +492,31 @@
                 document.getElementById("7").textContent= xInput;
                 turn2 += 2;
                 button7.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -215,7 +527,31 @@
                 document.getElementById("7").textContent= oInput;
                 turn1 += 2;
                 button7.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -234,7 +570,31 @@
                 document.getElementById("8").textContent= xInput;
                 turn2 += 2;
                 button8.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -245,7 +605,31 @@
                 document.getElementById("8").textContent= oInput;
                 turn1 += 2;
                 button8.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -264,7 +648,31 @@
                 document.getElementById("9").textContent= xInput;
                 turn2 += 2;
                 button9.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
@@ -275,7 +683,31 @@
                 document.getElementById("9").textContent= oInput;
                 turn1 += 2;
                 button9.disabled = true;
-                if ((turn2+turn1)>=19)
+                if (document.getElementById("1").innerText==="X" && document.getElementById("4").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("2").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("8").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("6").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("9").innerText==="X"
+                    || document.getElementById("3").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("7").innerText==="X"
+                    || document.getElementById("1").innerText==="X" && document.getElementById("2").innerText==="X" && document.getElementById("3").innerText==="X"
+                    || document.getElementById("4").innerText==="X" && document.getElementById("5").innerText==="X" && document.getElementById("6").innerText==="X"
+                    || document.getElementById("7").innerText==="X" && document.getElementById("8").innerText==="X" && document.getElementById("9").innerText==="X")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if (document.getElementById("1").innerText==="O" && document.getElementById("4").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("2").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("8").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("6").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("9").innerText==="O"
+                    || document.getElementById("3").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("7").innerText==="O"
+                    || document.getElementById("1").innerText==="O" && document.getElementById("2").innerText==="O" && document.getElementById("3").innerText==="O"
+                    || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
+                    || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
+                {
+                    alert("Winner is  X!")
+                }
+
+                else if ((turn2+turn1)>=19)
                 {
                     alert("Cat!")
                 }
