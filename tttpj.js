@@ -16,19 +16,15 @@ var button9 = document.getElementById("9");
 
 function main1()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("1").textContent= xInput;
             turn2 += 2;
             button1.disabled = true;
-
-
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -36,7 +32,10 @@ function main1()
             document.getElementById("1").textContent= oInput;
             turn1 += 2;
             button1.disabled = true;
-
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -47,17 +46,15 @@ function main1()
     }
 function main2()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("2").textContent= xInput;
             turn2 += 2;
             button2.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -65,6 +62,10 @@ function main2()
             document.getElementById("2").textContent= oInput;
             turn1 += 2;
             button2.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -75,17 +76,15 @@ function main2()
     }
 function main3()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("3").textContent= xInput;
             turn2 += 2;
             button3.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -93,6 +92,10 @@ function main3()
             document.getElementById("3").textContent= oInput;
             turn1 += 2;
             button3.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -104,16 +107,15 @@ function main3()
 function main4()
     {
 
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("4").textContent= xInput;
             turn2 += 2;
             button4.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -121,6 +123,10 @@ function main4()
             document.getElementById("4").textContent= oInput;
             turn1 += 2;
             button4.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -131,17 +137,15 @@ function main4()
     }
 function main5()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("5").textContent= xInput;
             turn2 += 2;
             button5.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -149,6 +153,10 @@ function main5()
             document.getElementById("5").textContent= oInput;
             turn1 += 2;
             button5.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -159,17 +167,15 @@ function main5()
     }
 function main6()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("6").textContent= xInput;
             turn2 += 2;
             button6.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -177,6 +183,10 @@ function main6()
             document.getElementById("6").textContent= oInput;
             turn1 += 2;
             button6.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -187,17 +197,15 @@ function main6()
     }
 function main7()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("7").textContent= xInput;
             turn2 += 2;
             button7.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -205,6 +213,10 @@ function main7()
             document.getElementById("7").textContent= oInput;
             turn1 += 2;
             button7.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -215,17 +227,15 @@ function main7()
     }
 function main8()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("8").textContent= xInput;
             turn2 += 2;
             button8.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -233,6 +243,10 @@ function main8()
             document.getElementById("8").textContent= oInput;
             turn1 += 2;
             button8.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
@@ -243,17 +257,15 @@ function main8()
     }
 function main9()
     {
-
-        if (turn2>9)
-        {
-            alert("Cat!")
-        }
-
-        else if (turn1 > turn2)
+        if (turn1 > turn2)
         {
             document.getElementById("9").textContent= xInput;
             turn2 += 2;
             button9.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
@@ -261,6 +273,10 @@ function main9()
             document.getElementById("9").textContent= oInput;
             turn1 += 2;
             button9.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else
