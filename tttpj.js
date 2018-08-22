@@ -44,7 +44,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -79,7 +79,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -122,7 +122,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -157,7 +157,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -200,7 +200,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -235,7 +235,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -279,7 +279,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -314,7 +314,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -357,7 +357,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -392,7 +392,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -435,7 +435,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -470,7 +470,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -513,7 +513,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -548,7 +548,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -591,7 +591,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -626,7 +626,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -669,7 +669,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
@@ -704,7 +704,7 @@
                     || document.getElementById("4").innerText==="O" && document.getElementById("5").innerText==="O" && document.getElementById("6").innerText==="O"
                     || document.getElementById("7").innerText==="O" && document.getElementById("8").innerText==="O" && document.getElementById("9").innerText==="O")
                 {
-                    alert("Winner is  X!")
+                    alert("Winner is  O!")
                 }
 
                 else if ((turn2+turn1)>=19)
