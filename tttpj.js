@@ -22,7 +22,7 @@ function main1()
             turn2 += 2;
             button1.disabled = true;
             if ((turn2+turn1)>=19)
-            {
+            {h
                 alert("Cat!")
             }
         }
