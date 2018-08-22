@@ -16,24 +16,32 @@ var button9 = document.getElementById("9");
 
 function main1()
     {
-            if (turn1 > turn2)
+        if (turn1 > turn2)
+        {
+            document.getElementById("1").textContent= xInput;
+            turn2 += 2;
+            button1.disabled = true;
+            if ((turn2+turn1)>=19)
             {
-                document.getElementById("1").textContent= xInput;
-                turn2 += 2;
-
-
+                alert("Cat!")
             }
+        }
 
-            else if (turn2 > turn1)
+        else if (turn2 > turn1)
+        {
+            document.getElementById("1").textContent= oInput;
+            turn1 += 2;
+            button1.disabled = true;
+            if ((turn2+turn1)>=19)
             {
-                document.getElementById("1").textContent= oInput;
-                turn1 += 2;
+                alert("Cat!")
+            }
+        }
 
-            }
-            else
-                {
-                alert("Error")
-            }
+        else
+            {
+            alert("Error")
+        }
 
     }
 function main2()
@@ -42,16 +50,24 @@ function main2()
         {
             document.getElementById("2").textContent= xInput;
             turn2 += 2;
-
-
+            button2.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("2").textContent= oInput;
             turn1 += 2;
-
+            button2.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -64,16 +80,24 @@ function main3()
         {
             document.getElementById("3").textContent= xInput;
             turn2 += 2;
-
-
+            button3.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("3").textContent= oInput;
             turn1 += 2;
-
+            button3.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -82,20 +106,29 @@ function main3()
     }
 function main4()
     {
+
         if (turn1 > turn2)
         {
             document.getElementById("4").textContent= xInput;
             turn2 += 2;
-
-
+            button4.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("4").textContent= oInput;
             turn1 += 2;
-
+            button4.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -108,16 +141,24 @@ function main5()
         {
             document.getElementById("5").textContent= xInput;
             turn2 += 2;
-
-
+            button5.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("5").textContent= oInput;
             turn1 += 2;
-
+            button5.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -130,16 +171,24 @@ function main6()
         {
             document.getElementById("6").textContent= xInput;
             turn2 += 2;
-
-
+            button6.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("6").textContent= oInput;
             turn1 += 2;
-
+            button6.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -152,16 +201,24 @@ function main7()
         {
             document.getElementById("7").textContent= xInput;
             turn2 += 2;
-
-
+            button7.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("7").textContent= oInput;
             turn1 += 2;
-
+            button7.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -174,16 +231,24 @@ function main8()
         {
             document.getElementById("8").textContent= xInput;
             turn2 += 2;
-
-
+            button8.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("8").textContent= oInput;
             turn1 += 2;
-
+            button8.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
@@ -196,16 +261,24 @@ function main9()
         {
             document.getElementById("9").textContent= xInput;
             turn2 += 2;
-
-
+            button9.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
 
         else if (turn2 > turn1)
         {
             document.getElementById("9").textContent= oInput;
             turn1 += 2;
-
+            button9.disabled = true;
+            if ((turn2+turn1)>=19)
+            {
+                alert("Cat!")
+            }
         }
+
         else
         {
             alert("Error")
