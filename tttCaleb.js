@@ -17,7 +17,7 @@ function resetGame()
     {
         //console.log(buttons[i]);
         //buttons[i].textContent = "/";
-        buttons[i].innerHTML="/";
+        buttons[i].innerHTML="+";
         buttons[i].disabled = false;
         turn1 = 1;
         turn2 = 0;
