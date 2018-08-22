@@ -1,26 +1,47 @@
 /* Use borders to draw a box */
+body
+{
+    background-color: midnightblue;
+}
 
-table {
+.jumbotron
+{
+    color: azure;
+    background-image: url("http://images6.fanpop.com/image/photos/40300000/Aqua-HD-KH-0-2-Birth-by-Sleep-A-Fragmentary-Passage-kingdom-hearts-aqua-40335722-334-500.png");
+}
+
+table
+{
     margin: auto;
 }
 
-td {
+td
+{
     width: 100px;
     height: 100px;
     text-align: center;
     font-size: 65px;
 }
 
-td:hover {
+td:hover
+{
     border: 1px solid grey;
 }
 
-.vertical {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+.vertical
+{
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 }
 
-.horizontal {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+.horizontal
+{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+button
+{
+    color: black;
+    background-color:midnightblue;
+    border: midnightblue;
 }
